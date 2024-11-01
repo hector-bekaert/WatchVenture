@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WatchVenture Configurator</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <!-- Banner Section -->
+    <header>
+        <div class="bannerconfig">
+            <h1>WatchVenture</h1>
+            <h2>Customize Your Watch</h2>
+                     <a href="index.html" class="btn-blue">Back to Home</a>
+        </div>
+    </header>
+
+    <!-- Configurator Content -->
+    <main class="container">
+        <h1>Configure Your Watch</h1>
+        
+        <!-- Watch Model Selection -->
+     
+        <div class="config-option">
+            <label for="model">Choose Your Model:</label>
+            <select id="model" name="model">
+                <option value="#">...</option>
+                <option value="rolex">Rolex</option>
+                <option value="omega">Omega</option>
+                <option value="grand-seiko">Grand Seiko</option>
+                <option value="vacheron">Vacheron Constantin</option>
+            </select>
+        </div>
+
+        <!-- Strap Type Selection -->
+        <div class="config-option">
+            <label for="strap">Select Strap Type:</label>
+            <select id="strap" name="strap">
+                <option value="#">...</option>
+                <option value="leather">Leather</option>
+                <option value="metal">Stainless Steal</option>
+                <option value="gold">Yellow Gold</option>
+                <option value="rubber">Rubber</option>
+            </select>
+        </div>
+
+        <!-- Color Picker for Strap -->
+        <div class="config-option">
+            <label for="color">Choose Strap Color:</label>
+            <input type="color" id="color" name="color" value="#000000">
+        </div>
+
+        <!-- Submit Button -->
+           <div class="btn-container">
+    <button class="btn-configure">Save Configuration</button>
+</div>
+
+    </main>
+</body>
+</html>

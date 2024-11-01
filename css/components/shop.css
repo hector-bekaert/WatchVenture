@@ -1,0 +1,76 @@
+/* Banner Style for Shop Page */
+.shop-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/ShopBanner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.shop-banner h1 {
+    font-size: 48px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.shop-banner p {
+    font-size: 24px;
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+/* Shop Container */
+.shop-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Shop Item Styling */
+.shop-items .item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 280px;
+}
+
+.shop-items .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.shop-items .item h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.shop-items .item p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Button Style for Add to Cart */
+.btn-add-cart {
+    background-color: #596062;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-cart:hover {
+    background-color: #357ABD;
+}

@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;  /* Limits the width of the container */
+    margin: 20px auto; /* Centers the container with vertical spacing */
+    padding: 20px;     /* Adds padding inside the container */
+    border-radius: 8px; /* Optional: rounds the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+@media (max-width: 960px) {
+    .container {
+        width: 80%; /* Adjusted to percentage for responsiveness */
+    }
+}
+@media (max-width: 720px) {
+    .container {
+        width: 90%; /* Adjusted to percentage for responsiveness */
+    }
+}
+@media (max-width: 540px) {
+    .container {
+        width: 95%; /* Adjusted to percentage for responsiveness */
+    }
+}

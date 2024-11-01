@@ -1,0 +1,132 @@
+.btn-blue {
+    background-color: #596062;  /* Button color */
+    color: #fff;                /* Text color */
+    padding: 10px 20px;         /* Space around the text */
+    font-size: 16px;            /* Font size */
+    font-weight: bold;          /* Makes text bold */
+    border: none;               /* Removes default border */
+    border-radius: 5px;         /* Rounds the corners */
+    cursor: pointer;            /* Shows pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+}
+
+/* Hover effect */
+.btn-blue:hover {
+    background-color: #357ABD;  /* Darkens color on hover */
+}
+
+/* Focus effect */
+.btn-blue:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.5); /* Outline for focus state */
+}
+
+/* Active effect */
+.btn-blue:active {
+    background-color: #2E6A99; /* Darker shade when active */
+    transform: scale(0.98); /* Slightly shrinks button on click */
+}
+
+
+/* About Us Button Styles */
+.btn-about {
+    background-color: #596062; /* Button color */
+    color: #fff;               /* Text color */
+    padding: 10px 20px;        /* Space around the text */
+    font-size: 16px;           /* Font size */
+    font-weight: bold;         /* Makes text bold */
+    border: none;              /* Removes default border */
+    border-radius: 5px;       /* Rounds the corners */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    cursor: pointer;           /* Shows pointer on hover */
+    position: absolute;        /* Positions the button */
+    top: 20px;                 /* Distance from the top */
+    right: 20px;               /* Distance from the right */
+    text-decoration: none;      /* Removes underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for About Us button */
+.btn-about:hover {
+    background-color: #357ABD;  /* Darkens color on hover */
+}
+
+/* Ensure the banner is positioned relative for the button to align properly */
+.banner {
+    position: relative; /* Necessary for absolute positioning of the button */
+    background: url('../../images/Banner.jpg') no-repeat center center;
+    color: white;
+    padding: 150px 20px;           
+    text-align: center;            
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-menu {
+    background-color: #596062; /* Button color */
+    color: #fff;               /* Text color */
+    padding: 10px 20px;        /* Space around the text */
+    font-size: 16px;           /* Font size */
+    font-weight: bold;         /* Makes text bold */
+    border: none;              /* Removes default border */
+    border-radius: 5px;       /* Rounds the corners */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    cursor: pointer;           /* Shows pointer on hover */
+    position: absolute;        /* Positions the button */
+    top: 20px;                 /* Distance from the top */
+    left: 20px;               /* Distance from the right */
+    text-decoration: none;      /* Removes underline */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect for About Us button */
+.btn-menu:hover {
+    background-color: #357ABD;  /* Darkens color on hover */
+}
+
+/* Ensure the banner is positioned relative for the button to align properly */
+.banner {
+    position: relative; /* Necessary for absolute positioning of the button */
+    background: url('../../images/Banner.jpg') no-repeat center center;
+    color: white;
+    padding: 150px 20px;           
+    text-align: center;            
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Container to center the button */
+.btn-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically if needed */
+    margin-top: 20px;        /* Optional: add margin above button */
+}
+
+/* Button style */
+.btn-configure {
+    background-color: #596062;  /* Button color */
+    color: #fff;                /* Text color */
+    padding: 10px 20px;         /* Space around the text */
+    font-size: 16px;            /* Font size */
+    font-weight: bold;          /* Makes text bold */
+    border: none;               /* Removes default border */
+    border-radius: 5px;         /* Rounds the corners */
+    cursor: pointer;            /* Shows pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    font-family: 'Roboto', sans-serif; /* Font family */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
+}
+
+/* Hover effect */
+.btn-configure:hover {
+    background-color: #3A7BCA;
+}

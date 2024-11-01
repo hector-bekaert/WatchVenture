@@ -1,0 +1,48 @@
+.menu-container {
+    position: absolute; /* Change to absolute positioning */
+    top: 20px; /* Distance from the top of the header */
+    left: 20px; /* Distance from the left side of the header */
+}
+
+.dropdown-menu {
+    display: none; /* Initially hide the dropdown menu */
+    position: absolute; /* Position it absolutely relative to the menu button */
+    top: 100%; /* Position it below the button */
+    left: 0; /* Align it to the left */
+    background-color: #fff; /* Background color of the menu */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    border-radius: 5px; /* Round corners */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block; /* Show the menu on hover */
+}
+
+/* Menu link styles */
+.dropdown-menu a {
+    display: block; /* Make links take up full width */
+    padding: 10px 15px; /* Add padding */
+    color: #596062; /* Use your defined text color */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu a:hover {
+    background-color: var(white); /* Change background on hover */
+    color: #596062; /* Change text color on hover */
+}
+
+/* Transition for smooth effect */
+.dropdown-menu {
+    opacity: 0; /* Make it invisible */
+    transform: translateY(-10px); /* Start it slightly above */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.menu-container:hover .dropdown-menu {
+    display: block; /* Show the menu on hover */
+    opacity: 1; /* Make it visible */
+    transform: translateY(0); /* Move it to its original position */
+}
+
+

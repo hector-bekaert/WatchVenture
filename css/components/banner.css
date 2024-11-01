@@ -1,0 +1,104 @@
+/* Simple Banner with Background Image and Gradient Overlay */
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/Banner.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the background image covers the area */
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styles */
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Subheading styles */
+.banner h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .banner {
+        padding: 100px 20px;
+    }
+    .banner h1 {
+        font-size: 36px;
+    }
+    .banner h2 {
+        font-size: 24px;
+    }
+}
+
+.bannerconfig {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/configurator.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the background image covers the area */
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styles */
+.bannerconfig h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Subheading styles */
+.bannerconfig h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+
+.shopbanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../images/shop.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the background image covers the area */
+    color: white;
+    padding: 150px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styles */
+.shopbanner h1 {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
+
+/* Subheading styles */
+.shopbanner h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+}
